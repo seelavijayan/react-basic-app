@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Welcome from './Welcome';
+import Message from './Message';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Welcome name="Seela Vijayan"/>
+    <Message message="React is Great"/> */}
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
